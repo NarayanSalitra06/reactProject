@@ -1,0 +1,12 @@
+.navcontainer{
+    display: flex;
+    justify-content:space-around;
+    height:70px;
+    align-items: center;
+}
+
+.navcontainer ul{
+    display: flex;
+    list-style: none;
+    gap:5px;
+}
