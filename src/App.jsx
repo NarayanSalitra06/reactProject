@@ -7,13 +7,12 @@ import Hero from "./components/Hero";
 import Login from "./components/Login";
 import ItemStore, { storeItem } from "./components/store/ItemStore";
 import HomePage from "./components/HomePage";
-import AppLoginandView from "./AppLoginandView";
 
 function App() {
   return (
     <>
       <ItemStore>
-        <AppLoginandView />
+        <HomePage />
       </ItemStore>
     </>
   );
